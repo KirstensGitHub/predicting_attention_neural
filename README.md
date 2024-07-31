@@ -1,14 +1,14 @@
-## Replicating code for "Modeling the attention of others activates social regions in the brain"
+# Replicating code for "Modeling the attention of others activates social regions in the brain"
 
 Welcome! To prepare our data for your own replication and analysis, you'll need to:
 - download and preprocess the MRI data
 - preprocess the behavioral data
 
-### Dependencies
+## Dependencies
 
 <mark>TODO</mark>
 
-### Preprocessing MRI data
+## Preprocessing MRI data
 
 First, download the MRI data for this experiment from <mark>LINK HERE</mark>.
 
@@ -36,5 +36,8 @@ First, download the MRI data for this experiment from <mark>LINK HERE</mark>.
 
 After the steps above are completed, all the MRI data should be nicely organized in the `data` folder. Error logs can be found in the `code/preprocessing/logs` folder. You can investigate the mriqc and fmriprep outputs in their respective folders within the `data/bids/derivatives/` directory.
 
+## Behavioral analysis
 
-<mark>TODO: these scripts </mark>
+1. `cd` into `data/behavioral`.
+2. Unzip `MRI_behavioral_data.zip` into `behavioral_data/`.
+3. Run each of the jupyter notebooks in sequence.
