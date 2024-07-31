@@ -1,0 +1,10 @@
+data/work/**
+data/bids/**
+data/dicom/**
+data/behavioral/event_timing/**
+code/preprocessing/logs/**
+code/preprocessing/license.txt
+code/preprocessing/*_OLD.sh
+
+!.gitkeep
+!/**/.gitkeep

@@ -1,0 +1,330 @@
+2.3446 	ERROR 	Support for the `sounddevice` audio backend is not available this session. Please install `psychopy-sounddevice` and restart the session to enable support.
+15.1130 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000230E9AE5250>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000230E9AE51F0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000230E9ADCF70>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000230EA88EA60>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.1132 	EXP 	window1: mouseVisible = True
+15.1132 	EXP 	window1: backgroundImage = ''
+15.1132 	EXP 	window1: backgroundFit = 'none'
+15.1135 	EXP 	window1: mouseVisible = False
+15.1135 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+15.1135 	EXP 	window1: recordFrameIntervals = False
+15.2790 	EXP 	window1: recordFrameIntervals = True
+15.4624 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+15.4625 	EXP 	window1: recordFrameIntervals = False
+15.5369 	EXP 	Created fix1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.5431 	EXP 	Created fix3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.7096 	EXP 	Created text_15 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_15', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.7153 	EXP 	Created fix4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.7198 	EXP 	movie: autoLog = True
+15.7198 	EXP 	fix1: autoDraw = True
+123.5290 	DATA 	Keypress: equal
+123.5511 	EXP 	Imported movie_stim_1.csv as conditions, 20 conditions, 6 params
+123.5523 	EXP 	Created sequence: sequential, trialTypes=20, nReps=1, seed=None
+123.5530 	EXP 	New trial (rep=0, index=0): OrderedDict([('run', 1), ('start_time', 10.0), ('type', 'scrambled'), ('moviestim', 'fps_60/1592044.bmp_pp90_L2_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 10.0), ('frames', None)])
+123.5566 	EXP 	fix1: autoDraw = False
+123.5566 	EXP 	fix3: autoDraw = True
+125.5257 	DATA 	Keypress: equal
+127.5222 	DATA 	Keypress: equal
+129.5291 	DATA 	Keypress: equal
+131.5188 	DATA 	Keypress: equal
+133.9538 	DATA 	Keypress: equal
+134.0032 	EXP 	fix3: autoDraw = False
+134.0032 	EXP 	fix3: autoDraw = False
+134.0032 	EXP 	movie: autoDraw = True
+135.5201 	DATA 	Keypress: equal
+137.1125 	EXP 	movie: autoDraw = False
+137.1125 	EXP 	text_15: autoDraw = True
+137.5306 	DATA 	Keypress: equal
+138.9466 	DATA 	Keypress: 1
+139.5313 	DATA 	Keypress: equal
+140.0967 	EXP 	New trial (rep=0, index=1): OrderedDict([('run', 1), ('start_time', 19.68), ('type', 'scrambled'), ('moviestim', 'fps_60/1592094.bmp_pp89_L1_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 3.68), ('frames', None)])
+140.1120 	EXP 	text_15: autoDraw = False
+140.1120 	EXP 	text_15: autoDraw = False
+140.1120 	EXP 	fix3: autoDraw = True
+141.5291 	DATA 	Keypress: equal
+143.5178 	DATA 	Keypress: equal
+144.2473 	EXP 	fix3: autoDraw = False
+144.2473 	EXP 	fix3: autoDraw = False
+144.2473 	EXP 	movie: autoDraw = True
+145.5231 	DATA 	Keypress: equal
+147.3098 	EXP 	movie: autoDraw = False
+147.3098 	EXP 	text_15: autoDraw = True
+147.5305 	DATA 	Keypress: equal
+149.1475 	DATA 	Keypress: 1
+149.5291 	DATA 	Keypress: equal
+150.2964 	EXP 	New trial (rep=0, index=2): OrderedDict([('run', 1), ('start_time', 29.81), ('type', 'veridical'), ('moviestim', 'fps_60/713142.bmp_pp54_L2_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 4.129999999999999), ('frames', None)])
+150.3120 	EXP 	text_15: autoDraw = False
+150.3120 	EXP 	text_15: autoDraw = False
+150.3120 	EXP 	fix3: autoDraw = True
+151.5188 	DATA 	Keypress: equal
+153.5219 	DATA 	Keypress: equal
+154.8694 	EXP 	fix3: autoDraw = False
+154.8694 	EXP 	fix3: autoDraw = False
+154.8694 	EXP 	movie: autoDraw = True
+155.5195 	DATA 	Keypress: equal
+157.5192 	DATA 	Keypress: equal
+157.9392 	EXP 	movie: autoDraw = False
+157.9392 	EXP 	text_15: autoDraw = True
+159.5267 	DATA 	Keypress: equal
+159.7122 	DATA 	Keypress: 1
+160.9260 	EXP 	New trial (rep=0, index=3): OrderedDict([('run', 1), ('start_time', 39.08), ('type', 'veridical'), ('moviestim', 'fps_60/1159515.bmp_pp80_L3_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 3.27), ('frames', None)])
+160.9416 	EXP 	text_15: autoDraw = False
+160.9416 	EXP 	text_15: autoDraw = False
+160.9416 	EXP 	fix3: autoDraw = True
+161.5319 	DATA 	Keypress: equal
+163.5302 	DATA 	Keypress: equal
+164.6144 	EXP 	fix3: autoDraw = False
+164.6144 	EXP 	fix3: autoDraw = False
+164.6144 	EXP 	movie: autoDraw = True
+165.5187 	DATA 	Keypress: equal
+167.5243 	DATA 	Keypress: equal
+167.7003 	EXP 	movie: autoDraw = False
+167.7003 	EXP 	text_15: autoDraw = True
+168.8840 	DATA 	Keypress: 1
+169.5181 	DATA 	Keypress: equal
+170.6842 	EXP 	New trial (rep=0, index=4): OrderedDict([('run', 1), ('start_time', 48.0), ('type', 'scrambled'), ('moviestim', 'fps_60/713142.bmp_pp54_L2_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 2.9200000000000017), ('frames', None)])
+170.7001 	EXP 	text_15: autoDraw = False
+170.7001 	EXP 	text_15: autoDraw = False
+170.7001 	EXP 	fix3: autoDraw = True
+171.5209 	DATA 	Keypress: equal
+173.5295 	DATA 	Keypress: equal
+174.0141 	EXP 	fix3: autoDraw = False
+174.0141 	EXP 	fix3: autoDraw = False
+174.0141 	EXP 	movie: autoDraw = True
+175.5196 	DATA 	Keypress: equal
+177.1317 	EXP 	movie: autoDraw = False
+177.1317 	EXP 	text_15: autoDraw = True
+177.5209 	DATA 	Keypress: equal
+177.8202 	DATA 	Keypress: 2
+179.5207 	DATA 	Keypress: equal
+180.1233 	EXP 	New trial (rep=0, index=5): OrderedDict([('run', 1), ('start_time', 56.3), ('type', 'scrambled'), ('moviestim', 'fps_60/713330.bmp_pp51_L1_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 2.299999999999997), ('frames', None)])
+180.1377 	EXP 	text_15: autoDraw = False
+180.1377 	EXP 	text_15: autoDraw = False
+180.1377 	EXP 	fix3: autoDraw = True
+181.5182 	DATA 	Keypress: equal
+182.8258 	EXP 	fix3: autoDraw = False
+182.8258 	EXP 	fix3: autoDraw = False
+182.8258 	EXP 	movie: autoDraw = True
+183.5182 	DATA 	Keypress: equal
+185.5219 	DATA 	Keypress: equal
+185.9319 	EXP 	movie: autoDraw = False
+185.9319 	EXP 	text_15: autoDraw = True
+187.3438 	DATA 	Keypress: 1
+187.5305 	DATA 	Keypress: equal
+188.9179 	EXP 	New trial (rep=0, index=6): OrderedDict([('run', 1), ('start_time', 66.73), ('type', 'veridical'), ('moviestim', 'fps_60/1592044.bmp_pp90_L2_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 4.430000000000007), ('frames', None)])
+188.9334 	EXP 	text_15: autoDraw = False
+188.9334 	EXP 	text_15: autoDraw = False
+188.9334 	EXP 	fix3: autoDraw = True
+189.5240 	DATA 	Keypress: equal
+191.5246 	DATA 	Keypress: equal
+193.7446 	DATA 	Keypress: equal
+193.8138 	EXP 	fix3: autoDraw = False
+193.8138 	EXP 	fix3: autoDraw = False
+193.8138 	EXP 	movie: autoDraw = True
+195.5202 	DATA 	Keypress: equal
+196.9027 	EXP 	movie: autoDraw = False
+196.9027 	EXP 	text_15: autoDraw = True
+197.5221 	DATA 	Keypress: equal
+197.6200 	DATA 	Keypress: 1
+199.5179 	DATA 	Keypress: equal
+199.7638 	DATA 	Keypress: 1
+199.8962 	EXP 	New trial (rep=0, index=7): OrderedDict([('run', 1), ('start_time', 75.4), ('type', 'scrambled'), ('moviestim', 'fps_60/1159515.bmp_pp80_L3_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 2.6700000000000017), ('frames', None)])
+199.9117 	EXP 	text_15: autoDraw = False
+199.9117 	EXP 	text_15: autoDraw = False
+199.9117 	EXP 	fix3: autoDraw = True
+201.5290 	DATA 	Keypress: equal
+202.9774 	EXP 	fix3: autoDraw = False
+202.9774 	EXP 	fix3: autoDraw = False
+202.9774 	EXP 	movie: autoDraw = True
+203.5262 	DATA 	Keypress: equal
+205.5266 	DATA 	Keypress: equal
+206.0837 	EXP 	movie: autoDraw = False
+206.0837 	EXP 	text_15: autoDraw = True
+207.4867 	DATA 	Keypress: 1
+207.5208 	DATA 	Keypress: equal
+209.0763 	EXP 	New trial (rep=0, index=8): OrderedDict([('run', 1), ('start_time', 84.36), ('type', 'scrambled'), ('moviestim', 'fps_60/1160247.bmp_pp99_L2_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 2.9599999999999937), ('frames', None)])
+209.0918 	EXP 	text_15: autoDraw = False
+209.0918 	EXP 	text_15: autoDraw = False
+209.0918 	EXP 	fix3: autoDraw = True
+209.5290 	DATA 	Keypress: equal
+211.5288 	DATA 	Keypress: equal
+212.4283 	EXP 	fix3: autoDraw = False
+212.4283 	EXP 	fix3: autoDraw = False
+212.4283 	EXP 	movie: autoDraw = True
+213.5202 	DATA 	Keypress: equal
+215.5283 	DATA 	Keypress: equal
+215.5330 	EXP 	movie: autoDraw = False
+215.5330 	EXP 	text_15: autoDraw = True
+215.9173 	DATA 	Keypress: 1
+217.5288 	DATA 	Keypress: equal
+218.5293 	EXP 	New trial (rep=0, index=9): OrderedDict([('run', 1), ('start_time', 93.97), ('type', 'veridical'), ('moviestim', 'fps_60/713807.bmp_pp152_L2_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 3.61), ('frames', None)])
+218.5451 	EXP 	text_15: autoDraw = False
+218.5451 	EXP 	fix3: autoDraw = True
+219.5289 	DATA 	Keypress: equal
+221.5289 	DATA 	Keypress: equal
+222.5244 	EXP 	fix3: autoDraw = False
+222.5244 	EXP 	fix3: autoDraw = False
+222.5244 	EXP 	movie: autoDraw = True
+223.5250 	DATA 	Keypress: equal
+225.5201 	DATA 	Keypress: equal
+225.6315 	EXP 	movie: autoDraw = False
+225.6315 	EXP 	text_15: autoDraw = True
+227.5000 	DATA 	Keypress: 1
+227.5310 	DATA 	Keypress: equal
+228.6162 	EXP 	New trial (rep=0, index=10): OrderedDict([('run', 1), ('start_time', 103.09), ('type', 'veridical'), ('moviestim', 'fps_60/1592094.bmp_pp89_L1_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 3.1200000000000045), ('frames', None)])
+228.6329 	EXP 	text_15: autoDraw = False
+228.6329 	EXP 	text_15: autoDraw = False
+228.6329 	EXP 	fix3: autoDraw = True
+229.5302 	DATA 	Keypress: equal
+231.5318 	DATA 	Keypress: equal
+232.1288 	EXP 	fix3: autoDraw = False
+232.1288 	EXP 	fix3: autoDraw = False
+232.1288 	EXP 	movie: autoDraw = True
+233.5214 	DATA 	Keypress: equal
+235.2341 	EXP 	movie: autoDraw = False
+235.2341 	EXP 	text_15: autoDraw = True
+235.5183 	DATA 	Keypress: equal
+237.5248 	DATA 	Keypress: equal
+237.5756 	DATA 	Keypress: 1
+238.2241 	EXP 	New trial (rep=0, index=11): OrderedDict([('run', 1), ('start_time', 112.07), ('type', 'scrambled'), ('moviestim', 'fps_60/713807.bmp_pp152_L2_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 2.9799999999999898), ('frames', None)])
+238.2392 	EXP 	text_15: autoDraw = False
+238.2392 	EXP 	text_15: autoDraw = False
+238.2392 	EXP 	fix3: autoDraw = True
+239.5214 	DATA 	Keypress: equal
+241.5691 	DATA 	Keypress: equal
+241.5904 	EXP 	fix3: autoDraw = False
+241.5904 	EXP 	fix3: autoDraw = False
+241.5904 	EXP 	movie: autoDraw = True
+243.5205 	DATA 	Keypress: equal
+244.7118 	EXP 	movie: autoDraw = False
+244.7118 	EXP 	text_15: autoDraw = True
+245.5304 	DATA 	Keypress: equal
+246.1789 	DATA 	Keypress: 1
+247.5224 	DATA 	Keypress: equal
+247.7084 	EXP 	New trial (rep=0, index=12): OrderedDict([('run', 1), ('start_time', 122.94), ('type', 'veridical'), ('moviestim', 'fps_60/1592836.bmp_pp64_L1_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 4.8700000000000045), ('frames', None)])
+247.7243 	EXP 	text_15: autoDraw = False
+247.7243 	EXP 	fix3: autoDraw = True
+249.5210 	DATA 	Keypress: equal
+251.5262 	DATA 	Keypress: equal
+253.0031 	EXP 	fix3: autoDraw = False
+253.0031 	EXP 	fix3: autoDraw = False
+253.0031 	EXP 	movie: autoDraw = True
+253.5195 	DATA 	Keypress: equal
+255.5199 	DATA 	Keypress: equal
+256.1093 	EXP 	movie: autoDraw = False
+256.1093 	EXP 	text_15: autoDraw = True
+257.2960 	DATA 	Keypress: 1
+257.5289 	DATA 	Keypress: equal
+259.1008 	EXP 	New trial (rep=0, index=13): OrderedDict([('run', 1), ('start_time', 131.58), ('type', 'veridical'), ('moviestim', 'fps_60/1592254.bmp_pp82_L2_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 2.640000000000015), ('frames', None)])
+259.1158 	EXP 	text_15: autoDraw = False
+259.1158 	EXP 	text_15: autoDraw = False
+259.1158 	EXP 	fix3: autoDraw = True
+259.5289 	DATA 	Keypress: equal
+261.5288 	DATA 	Keypress: equal
+262.1485 	EXP 	fix3: autoDraw = False
+262.1485 	EXP 	fix3: autoDraw = False
+262.1485 	EXP 	movie: autoDraw = True
+263.5194 	DATA 	Keypress: equal
+265.2695 	EXP 	movie: autoDraw = False
+265.2695 	EXP 	text_15: autoDraw = True
+265.5180 	DATA 	Keypress: equal
+267.5291 	DATA 	Keypress: equal
+267.7291 	DATA 	Keypress: 1
+268.2629 	EXP 	New trial (rep=0, index=14): OrderedDict([('run', 1), ('start_time', 143.68), ('type', 'veridical'), ('moviestim', 'fps_60/713330.bmp_pp51_L1_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 6.099999999999994), ('frames', None)])
+268.2786 	EXP 	text_15: autoDraw = False
+268.2786 	EXP 	text_15: autoDraw = False
+268.2786 	EXP 	fix3: autoDraw = True
+269.5312 	DATA 	Keypress: equal
+271.5293 	DATA 	Keypress: equal
+273.5289 	DATA 	Keypress: equal
+274.8115 	EXP 	fix3: autoDraw = False
+274.8115 	EXP 	fix3: autoDraw = False
+274.8115 	EXP 	movie: autoDraw = True
+275.5199 	DATA 	Keypress: equal
+277.5199 	DATA 	Keypress: equal
+277.8794 	EXP 	movie: autoDraw = False
+277.8794 	EXP 	text_15: autoDraw = True
+279.5191 	DATA 	Keypress: equal
+279.6201 	DATA 	Keypress: 1
+280.8757 	EXP 	New trial (rep=0, index=15): OrderedDict([('run', 1), ('start_time', 152.71), ('type', 'scrambled'), ('moviestim', 'fps_60/498155.bmp_pp99_L2_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 3.030000000000001), ('frames', None)])
+280.8910 	EXP 	text_15: autoDraw = False
+280.8910 	EXP 	fix3: autoDraw = True
+281.5186 	DATA 	Keypress: equal
+283.5286 	DATA 	Keypress: equal
+284.2602 	EXP 	fix3: autoDraw = False
+284.2602 	EXP 	fix3: autoDraw = False
+284.2602 	EXP 	movie: autoDraw = True
+285.5192 	DATA 	Keypress: equal
+287.3664 	EXP 	movie: autoDraw = False
+287.3664 	EXP 	text_15: autoDraw = True
+287.5299 	DATA 	Keypress: equal
+288.0628 	DATA 	Keypress: 1
+289.5291 	DATA 	Keypress: equal
+290.3505 	EXP 	New trial (rep=0, index=16): OrderedDict([('run', 1), ('start_time', 162.9), ('type', 'veridical'), ('moviestim', 'fps_60/1160247.bmp_pp99_L2_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 4.189999999999998), ('frames', None)])
+290.3663 	EXP 	text_15: autoDraw = False
+290.3663 	EXP 	text_15: autoDraw = False
+290.3663 	EXP 	fix3: autoDraw = True
+291.5288 	DATA 	Keypress: equal
+293.5305 	DATA 	Keypress: equal
+294.9758 	EXP 	fix3: autoDraw = False
+294.9758 	EXP 	fix3: autoDraw = False
+294.9758 	EXP 	movie: autoDraw = True
+295.5193 	DATA 	Keypress: equal
+297.5199 	DATA 	Keypress: equal
+298.0428 	EXP 	movie: autoDraw = False
+298.0428 	EXP 	text_15: autoDraw = True
+298.7247 	DATA 	Keypress: 1
+299.5186 	DATA 	Keypress: equal
+301.0320 	EXP 	New trial (rep=0, index=17): OrderedDict([('run', 1), ('start_time', 171.48), ('type', 'veridical'), ('moviestim', 'fps_60/498155.bmp_pp99_L2_V1_veridical_freeview_isoFalse_fps60.mp4'), ('jitters', 2.579999999999984), ('frames', None)])
+301.0475 	EXP 	text_15: autoDraw = False
+301.0475 	EXP 	text_15: autoDraw = False
+301.0475 	EXP 	fix3: autoDraw = True
+301.5288 	DATA 	Keypress: equal
+303.5289 	DATA 	Keypress: equal
+303.9975 	EXP 	fix3: autoDraw = False
+303.9975 	EXP 	fix3: autoDraw = False
+303.9975 	EXP 	movie: autoDraw = True
+305.5234 	DATA 	Keypress: equal
+307.0985 	EXP 	movie: autoDraw = False
+307.0985 	EXP 	text_15: autoDraw = True
+307.5291 	DATA 	Keypress: equal
+307.6477 	DATA 	Keypress: 1
+309.5185 	DATA 	Keypress: equal
+310.0881 	EXP 	New trial (rep=0, index=18): OrderedDict([('run', 1), ('start_time', 180.29), ('type', 'scrambled'), ('moviestim', 'fps_60/1592254.bmp_pp82_L2_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 2.8100000000000023), ('frames', None)])
+310.1039 	EXP 	text_15: autoDraw = False
+310.1039 	EXP 	text_15: autoDraw = False
+310.1039 	EXP 	fix3: autoDraw = True
+311.5180 	DATA 	Keypress: equal
+313.2691 	EXP 	fix3: autoDraw = False
+313.2691 	EXP 	fix3: autoDraw = False
+313.2691 	EXP 	movie: autoDraw = True
+313.5187 	DATA 	Keypress: equal
+315.5257 	DATA 	Keypress: equal
+316.3893 	EXP 	movie: autoDraw = False
+316.3893 	EXP 	text_15: autoDraw = True
+317.2666 	DATA 	Keypress: 1
+317.5193 	DATA 	Keypress: equal
+319.3730 	EXP 	New trial (rep=0, index=19): OrderedDict([('run', 1), ('start_time', 189.35), ('type', 'scrambled'), ('moviestim', 'fps_60/1592836.bmp_pp64_L1_V1_scrambled_freeview_isoFalse_fps60.mp4'), ('jitters', 3.0600000000000023), ('frames', None)])
+319.3884 	EXP 	text_15: autoDraw = False
+319.3884 	EXP 	text_15: autoDraw = False
+319.3884 	EXP 	fix3: autoDraw = True
+319.5222 	DATA 	Keypress: equal
+321.5180 	DATA 	Keypress: equal
+322.8014 	EXP 	fix3: autoDraw = False
+322.8014 	EXP 	fix3: autoDraw = False
+322.8014 	EXP 	movie: autoDraw = True
+323.5228 	DATA 	Keypress: equal
+325.5255 	DATA 	Keypress: equal
+325.9370 	EXP 	movie: autoDraw = False
+325.9370 	EXP 	text_15: autoDraw = True
+327.5222 	DATA 	Keypress: equal
+328.9394 	EXP 	text_15: autoDraw = False
+328.9394 	EXP 	text_15: autoDraw = False
+328.9394 	EXP 	fix4: autoDraw = True
+329.0571 	DATA 	Keypress: 1
+329.5236 	DATA 	Keypress: equal
+331.5169 	DATA 	Keypress: equal
+333.5287 	DATA 	Keypress: equal
+335.5182 	DATA 	Keypress: equal
+337.5239 	DATA 	Keypress: equal
+338.9449 	EXP 	fix4: autoDraw = False
+338.9449 	EXP 	fix4: autoDraw = False
+339.0881 	EXP 	window1: mouseVisible = True
