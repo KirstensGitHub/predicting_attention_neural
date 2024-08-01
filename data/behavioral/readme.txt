@@ -1,1 +1,0 @@
-to analyze the data from scratch, remove anything in this directory that isn't .txt, .ipynb, or .zip, unzip the behavioral data, rename the directory to behavioral_data, erase the extra subject 18 folders from subject 9 directory, and rename that one REPEAT file in subject 1 directory to match its mates, then run the jupyter notebooks in order
