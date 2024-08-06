@@ -70,4 +70,3 @@ as well as the anonymized data from our study `./analysis/data`
 NOTE: To replicate our procedure, use Firefox version 44.0.2 (downloadable here: https://ftp.mozilla.org/pub/firefox/releases/44.0.2/) on Mac OS X 10.11. In different browsers & systems, the experiment may display differently. For example, in our experiment, the browser did not allow participants to end a trial without submitting answers, the browser displayed the experiment at around 60 frames per second, and so on. In different browsers, these and other aspects may differ. (E.g., Safari allows participants to bypass a trial without entering a response -- a significant departure in the design of the experiment).
 
 NOTE: If the videos do not display and/or you instead see a blank white screen during the experiment, open the `.html` file in a text editor (e.g. Atom, TextEdit, etc.) and check if the file paths need updating 
->>>>>>> dbcd866eab6d6b4e6e5569d3367e981d2c1967df
