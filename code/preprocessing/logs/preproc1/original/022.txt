@@ -1,0 +1,684 @@
+Are you running in a tmux window? Press any key if you want to continuecopying session 01 dicoms
+checking number of volumes transferred session 01
+Path to dataset: /jukebox/graziano/jack/fmri/jack_replication/data/dicom/subject_22-1103-1645/dcm
+Path to output: /jukebox/graziano/jack/fmri/jack_replication/data/dicom/check_volumes/
+Output filename: 022_01_index.csv
+/jukebox/graziano/jack/fmri/jack_replication/data/dicom/check_volumes/022_01_index.csv
+Complete
+0,1
+1,128
+2,5
+3,3
+99,10
+5,176
+6,110
+7,110
+8,110
+9,110
+10,110
+11,110
+12,168
+13,168
+4,3
+converting to BIDS with heudiconv
+INFO: Running heudiconv version 0.8.0 latest 1.1.6
+INFO: Analyzing 1321 dicoms
+INFO: Filtering out 0 dicoms based on their filename
+INFO: Generated sequence info for 1 studies with 13 entries total
+INFO: Processing sequence infos to deduce study/session
+INFO: Study session for StudySessionInfo(locator='GraziL/Kirsten/PredictingAttention', session='01', subject='022')
+INFO: Need to process 1 study sessions
+INFO: PROCESSING STARTS: {'subject': '022', 'outdir': '/home/bids', 'session': '01'}
+INFO: Processing 13 pre-sorted seqinfo entries
+INFO: Processing 13 seqinfo entries
+WARNING: Detected 3 duplicated run(s) for template {bids_subject_session_dir}/anat/{bids_subject_session_prefix}_scout: ['1-anat_ses-01_scout', '2-anat_ses-01_scout', '3-anat_ses-01_scout']
+INFO: Doing conversion using dcm2niix
+INFO: Converting /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout (3 DICOMs) -> /home/bids/sub-022/ses-01/anat . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:28:53,388 nipype.utils INFO:
+	 Running nipype version 1.4.2 (latest: 1.8.4)
+INFO: Running nipype version 1.4.2 (latest: 1.8.4)
+240703-15:28:53,389 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixensifoyf/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixensifoyf/convert".
+240703-15:28:53,395 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout -o . -s n -v n /tmp/dcm2niixensifoyf/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout -o . -s n -v n /tmp/dcm2niixensifoyf/convert
+240703-15:28:53,597 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:28:53.597640:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Found 3 DICOM file(s)
+INFO: stdout 2024-07-03T15:28:53.597640:Found 3 DICOM file(s)
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:slices not stacked: orientation varies (vNav or localizer?) [0.999203 0.0282805 0.0281576 -0.0288963 0.999347 0.0217096] != [0.997171 0.0742201 0.0118964 -0.0719291 0.988138 -0.13568]
+INFO: stdout 2024-07-03T15:28:53.597640:slices not stacked: orientation varies (vNav or localizer?) [0.999203 0.0282805 0.0281576 -0.0288963 0.999347 0.0217096] != [0.997171 0.0742201 0.0118964 -0.0719291 0.988138 -0.13568]
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00001 (162x162x1x1)
+INFO: stdout 2024-07-03T15:28:53.597640:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00001 (162x162x1x1)
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:28:53.597640:Warning: Check that 2D images are not mirrored.
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00001.nii"
+INFO: stdout 2024-07-03T15:28:53.597640:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00001.nii"
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00002 (162x162x1x1)
+INFO: stdout 2024-07-03T15:28:53.597640:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00002 (162x162x1x1)
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:28:53.597640:Warning: Check that 2D images are not mirrored.
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00002.nii"
+INFO: stdout 2024-07-03T15:28:53.597640:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00002.nii"
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00003 (162x162x1x1)
+INFO: stdout 2024-07-03T15:28:53.597640:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00003 (162x162x1x1)
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:28:53.597640:Warning: Check that 2D images are not mirrored.
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00003.nii"
+INFO: stdout 2024-07-03T15:28:53.597640:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout_i00003.nii"
+240703-15:28:53,598 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:53.597640:Conversion required 0.048647 seconds (0.010338 for core code).
+INFO: stdout 2024-07-03T15:28:53.597640:Conversion required 0.048647 seconds (0.010338 for core code).
+240703-15:28:53,633 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout1.json.
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout2.json.
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout3.json.
+WARNING: For now not embedding BIDS and info generated .nii.gz itself since sequence produced multiple files
+INFO: Converting /home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w (176 DICOMs) -> /home/bids/sub-022/ses-01/anat . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:28:53,834 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixkybrzm18/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixkybrzm18/convert".
+240703-15:28:53,887 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w -o . -s n -v n /tmp/dcm2niixkybrzm18/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w -o . -s n -v n /tmp/dcm2niixkybrzm18/convert
+240703-15:28:54,217 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:54.217234:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:28:54.217234:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:28:54,217 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:54.217234:Found 176 DICOM file(s)
+INFO: stdout 2024-07-03T15:28:54.217234:Found 176 DICOM file(s)
+240703-15:28:54,217 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:54.217234:Convert 176 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w (256x256x176x1)
+INFO: stdout 2024-07-03T15:28:54.217234:Convert 176 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w (256x256x176x1)
+240703-15:28:54,883 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:54.883522:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w.nii"
+INFO: stdout 2024-07-03T15:28:54.883522:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w.nii"
+240703-15:28:54,883 nipype.interface INFO:
+	 stdout 2024-07-03T15:28:54.883522:Conversion required 0.972421 seconds (0.297470 for core code).
+INFO: stdout 2024-07-03T15:28:54.883522:Conversion required 0.972421 seconds (0.297470 for core code).
+240703-15:28:54,936 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w.json.
+240703-15:29:02,228 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmetaoej4bbtp/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmetaoej4bbtp/embedder".
+240703-15:29:02,246 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:29:07,648 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:29:07,649 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmetaoej4bbtp/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmetaoej4bbtp/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/anat/sub-022_ses-01_T1w.json file
+INFO: Converting /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-01_bold (110 DICOMs) -> /home/bids/sub-022/ses-01/func . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:29:07,751 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niix5m43lq7r/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niix5m43lq7r/convert".
+240703-15:29:07,789 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-01_bold -o . -s n -v n /tmp/dcm2niix5m43lq7r/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-01_bold -o . -s n -v n /tmp/dcm2niix5m43lq7r/convert
+240703-15:29:08,286 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:08.285879:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:29:08.285879:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:29:08,286 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:08.285879:Found 110 DICOM file(s)
+INFO: stdout 2024-07-03T15:29:08.285879:Found 110 DICOM file(s)
+240703-15:29:08,286 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:08.285879:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+INFO: stdout 2024-07-03T15:29:08.285879:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+240703-15:29:08,286 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:08.285879:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-01_bold (78x78x56x110)
+INFO: stdout 2024-07-03T15:29:08.285879:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-01_bold (78x78x56x110)
+240703-15:29:09,674 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:09.674745:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-01_bold.nii"
+INFO: stdout 2024-07-03T15:29:09.674745:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-01_bold.nii"
+240703-15:29:09,674 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:09.674745:Conversion required 1.793597 seconds (0.382702 for core code).
+INFO: stdout 2024-07-03T15:29:09.674745:Conversion required 1.793597 seconds (0.382702 for core code).
+240703-15:29:09,717 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+240703-15:29:28,764 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmetaucxrnqlb/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmetaucxrnqlb/embedder".
+240703-15:29:28,779 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:29:35,514 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:29:35,515 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmetaucxrnqlb/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmetaucxrnqlb/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-01_bold.json file
+INFO: Converting /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-02_bold (110 DICOMs) -> /home/bids/sub-022/ses-01/func . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:29:35,643 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixem5mt2d7/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixem5mt2d7/convert".
+240703-15:29:35,676 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-02_bold -o . -s n -v n /tmp/dcm2niixem5mt2d7/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-02_bold -o . -s n -v n /tmp/dcm2niixem5mt2d7/convert
+240703-15:29:36,142 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:36.141842:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:29:36.141842:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:29:36,142 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:36.141842:Found 110 DICOM file(s)
+INFO: stdout 2024-07-03T15:29:36.141842:Found 110 DICOM file(s)
+240703-15:29:36,142 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:36.141842:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+INFO: stdout 2024-07-03T15:29:36.141842:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+240703-15:29:36,142 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:36.141842:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-02_bold (78x78x56x110)
+INFO: stdout 2024-07-03T15:29:36.141842:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-02_bold (78x78x56x110)
+240703-15:29:37,285 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:37.285901:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-02_bold.nii"
+INFO: stdout 2024-07-03T15:29:37.285901:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-02_bold.nii"
+240703-15:29:37,286 nipype.interface INFO:
+	 stdout 2024-07-03T15:29:37.285901:Conversion required 1.561554 seconds (0.388373 for core code).
+INFO: stdout 2024-07-03T15:29:37.285901:Conversion required 1.561554 seconds (0.388373 for core code).
+240703-15:29:37,328 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+240703-15:29:56,554 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmeta98l2ff7_/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmeta98l2ff7_/embedder".
+240703-15:29:56,567 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:30:03,424 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:30:03,425 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmeta98l2ff7_/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmeta98l2ff7_/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-02_bold.json file
+INFO: Converting /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-03_bold (110 DICOMs) -> /home/bids/sub-022/ses-01/func . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:30:03,510 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixb5i_3icn/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixb5i_3icn/convert".
+240703-15:30:03,544 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-03_bold -o . -s n -v n /tmp/dcm2niixb5i_3icn/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-03_bold -o . -s n -v n /tmp/dcm2niixb5i_3icn/convert
+240703-15:30:04,197 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:04.197318:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:30:04.197318:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:30:04,197 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:04.197318:Found 110 DICOM file(s)
+INFO: stdout 2024-07-03T15:30:04.197318:Found 110 DICOM file(s)
+240703-15:30:04,197 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:04.197318:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+INFO: stdout 2024-07-03T15:30:04.197318:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+240703-15:30:04,198 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:04.197318:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-03_bold (78x78x56x110)
+INFO: stdout 2024-07-03T15:30:04.197318:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-03_bold (78x78x56x110)
+240703-15:30:05,709 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:05.709032:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-03_bold.nii"
+INFO: stdout 2024-07-03T15:30:05.709032:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-03_bold.nii"
+240703-15:30:05,709 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:05.709032:Conversion required 2.075028 seconds (0.435745 for core code).
+INFO: stdout 2024-07-03T15:30:05.709032:Conversion required 2.075028 seconds (0.435745 for core code).
+240703-15:30:05,774 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+240703-15:30:24,813 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmetal_rysga2/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmetal_rysga2/embedder".
+240703-15:30:24,827 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:30:31,566 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:30:31,567 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmetal_rysga2/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmetal_rysga2/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-03_bold.json file
+INFO: Converting /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-04_bold (110 DICOMs) -> /home/bids/sub-022/ses-01/func . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:30:31,657 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixbs8cmi43/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixbs8cmi43/convert".
+240703-15:30:31,694 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-04_bold -o . -s n -v n /tmp/dcm2niixbs8cmi43/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-04_bold -o . -s n -v n /tmp/dcm2niixbs8cmi43/convert
+240703-15:30:32,347 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:32.347311:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:30:32.347311:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:30:32,347 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:32.347311:Found 110 DICOM file(s)
+INFO: stdout 2024-07-03T15:30:32.347311:Found 110 DICOM file(s)
+240703-15:30:32,347 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:32.347311:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+INFO: stdout 2024-07-03T15:30:32.347311:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+240703-15:30:32,347 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:32.347311:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-04_bold (78x78x56x110)
+INFO: stdout 2024-07-03T15:30:32.347311:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-04_bold (78x78x56x110)
+240703-15:30:33,418 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:33.418123:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-04_bold.nii"
+INFO: stdout 2024-07-03T15:30:33.418123:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-04_bold.nii"
+240703-15:30:33,418 nipype.interface INFO:
+	 stdout 2024-07-03T15:30:33.418123:Conversion required 1.612351 seconds (0.399045 for core code).
+INFO: stdout 2024-07-03T15:30:33.418123:Conversion required 1.612351 seconds (0.399045 for core code).
+240703-15:30:33,455 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+240703-15:30:53,132 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmetax0gdx3l_/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmetax0gdx3l_/embedder".
+240703-15:30:53,146 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:30:59,760 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:30:59,761 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmetax0gdx3l_/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmetax0gdx3l_/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-04_bold.json file
+INFO: Converting /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-05_bold (110 DICOMs) -> /home/bids/sub-022/ses-01/func . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:30:59,867 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixr0fl36gb/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixr0fl36gb/convert".
+240703-15:30:59,906 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-05_bold -o . -s n -v n /tmp/dcm2niixr0fl36gb/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-05_bold -o . -s n -v n /tmp/dcm2niixr0fl36gb/convert
+240703-15:31:00,419 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:00.419296:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:31:00.419296:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:31:00,419 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:00.419296:Found 110 DICOM file(s)
+INFO: stdout 2024-07-03T15:31:00.419296:Found 110 DICOM file(s)
+240703-15:31:00,419 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:00.419296:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+INFO: stdout 2024-07-03T15:31:00.419296:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+240703-15:31:00,419 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:00.419296:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-05_bold (78x78x56x110)
+INFO: stdout 2024-07-03T15:31:00.419296:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-05_bold (78x78x56x110)
+240703-15:31:01,795 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:01.795066:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-05_bold.nii"
+INFO: stdout 2024-07-03T15:31:01.795066:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-05_bold.nii"
+240703-15:31:01,795 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:01.795066:Conversion required 1.838239 seconds (0.394705 for core code).
+INFO: stdout 2024-07-03T15:31:01.795066:Conversion required 1.838239 seconds (0.394705 for core code).
+240703-15:31:01,844 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+240703-15:31:21,143 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmeta04kmp4_3/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmeta04kmp4_3/embedder".
+240703-15:31:21,163 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:31:27,782 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:31:27,788 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmeta04kmp4_3/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmeta04kmp4_3/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-05_bold.json file
+INFO: Converting /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-06_bold (110 DICOMs) -> /home/bids/sub-022/ses-01/func . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:31:27,893 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixud4zqn01/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixud4zqn01/convert".
+240703-15:31:27,931 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-06_bold -o . -s n -v n /tmp/dcm2niixud4zqn01/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-06_bold -o . -s n -v n /tmp/dcm2niixud4zqn01/convert
+240703-15:31:28,505 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:28.505475:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:31:28.505475:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:31:28,506 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:28.505475:Found 110 DICOM file(s)
+INFO: stdout 2024-07-03T15:31:28.505475:Found 110 DICOM file(s)
+240703-15:31:28,506 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:28.505475:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+INFO: stdout 2024-07-03T15:31:28.505475:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+240703-15:31:28,506 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:28.505475:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-06_bold (78x78x56x110)
+INFO: stdout 2024-07-03T15:31:28.505475:Convert 110 DICOM as ./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-06_bold (78x78x56x110)
+240703-15:31:29,683 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:29.683793:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-06_bold.nii"
+INFO: stdout 2024-07-03T15:31:29.683793:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-06_bold.nii"
+240703-15:31:29,684 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:29.683793:Conversion required 1.706755 seconds (0.390225 for core code).
+INFO: stdout 2024-07-03T15:31:29.683793:Conversion required 1.706755 seconds (0.390225 for core code).
+240703-15:31:29,728 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+240703-15:31:48,951 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmeta9fqrahg4/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmeta9fqrahg4/embedder".
+240703-15:31:48,979 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:31:55,599 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:31:55,600 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmeta9fqrahg4/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmeta9fqrahg4/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/func/sub-022_ses-01_task-PredictingAttention_run-06_bold.json file
+INFO: Converting /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi (168 DICOMs) -> /home/bids/sub-022/ses-01/fmap . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:31:55,752 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niix3u0ptnkq/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niix3u0ptnkq/convert".
+240703-15:31:55,808 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi -o . -s n -v n /tmp/dcm2niix3u0ptnkq/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi -o . -s n -v n /tmp/dcm2niix3u0ptnkq/convert
+240703-15:31:56,123 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:56.122982:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:31:56.122982:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:31:56,123 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:56.122982:Found 168 DICOM file(s)
+INFO: stdout 2024-07-03T15:31:56.122982:Found 168 DICOM file(s)
+240703-15:31:56,123 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:56.122982:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+INFO: stdout 2024-07-03T15:31:56.122982:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+240703-15:31:56,123 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:56.122982:Convert 168 DICOM as ./home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi (78x78x56x3)
+INFO: stdout 2024-07-03T15:31:56.122982:Convert 168 DICOM as ./home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi (78x78x56x3)
+240703-15:31:56,232 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:56.232369:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi.nii"
+INFO: stdout 2024-07-03T15:31:56.232369:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi.nii"
+240703-15:31:56,232 nipype.interface INFO:
+	 stdout 2024-07-03T15:31:56.232369:Conversion required 0.380536 seconds (0.137730 for core code).
+INFO: stdout 2024-07-03T15:31:56.232369:Conversion required 0.380536 seconds (0.137730 for core code).
+240703-15:31:56,276 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi.json.
+240703-15:31:59,137 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmetabd0a39qo/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmetabd0a39qo/embedder".
+240703-15:31:59,155 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:32:05,639 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:32:05,640 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmetabd0a39qo/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmetabd0a39qo/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-AP_epi.json file
+INFO: Converting /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi (168 DICOMs) -> /home/bids/sub-022/ses-01/fmap . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:32:05,751 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixm5hz5mfb/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixm5hz5mfb/convert".
+240703-15:32:05,802 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi -o . -s n -v n /tmp/dcm2niixm5hz5mfb/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi -o . -s n -v n /tmp/dcm2niixm5hz5mfb/convert
+240703-15:32:06,173 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:06.173656:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:32:06.173656:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:32:06,174 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:06.173656:Found 168 DICOM file(s)
+INFO: stdout 2024-07-03T15:32:06.173656:Found 168 DICOM file(s)
+240703-15:32:06,174 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:06.173656:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+INFO: stdout 2024-07-03T15:32:06.173656:slices stacked despite varying acquisition numbers (if this is not desired recompile with 'mySegmentByAcq')
+240703-15:32:06,174 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:06.173656:Convert 168 DICOM as ./home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi (78x78x56x3)
+INFO: stdout 2024-07-03T15:32:06.173656:Convert 168 DICOM as ./home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi (78x78x56x3)
+240703-15:32:06,272 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:06.271941:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi.nii"
+INFO: stdout 2024-07-03T15:32:06.271941:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi.nii"
+240703-15:32:06,272 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:06.271941:Conversion required 0.421801 seconds (0.138498 for core code).
+INFO: stdout 2024-07-03T15:32:06.271941:Conversion required 0.421801 seconds (0.138498 for core code).
+240703-15:32:06,313 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi.json.
+240703-15:32:09,192 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmetagpbeknfm/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmetagpbeknfm/embedder".
+240703-15:32:09,207 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:32:15,523 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:32:15,524 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmetagpbeknfm/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmetagpbeknfm/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/fmap/sub-022_ses-01_dir-PA_epi.json file
+INFO: Converting /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01 (128 DICOMs) -> /home/bids/sub-022/ses-01/anat . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:32:15,700 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niix_33kl1g_/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niix_33kl1g_/convert".
+240703-15:32:15,738 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01 -o . -s n -v n /tmp/dcm2niix_33kl1g_/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01 -o . -s n -v n /tmp/dcm2niix_33kl1g_/convert
+240703-15:32:16,5 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:16.005079:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:32:16.005079:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:32:16,5 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:16.005079:Found 128 DICOM file(s)
+INFO: stdout 2024-07-03T15:32:16.005079:Found 128 DICOM file(s)
+240703-15:32:16,5 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:16.005079:Convert 128 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01 (160x160x128x1)
+INFO: stdout 2024-07-03T15:32:16.005079:Convert 128 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01 (160x160x128x1)
+240703-15:32:16,125 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:16.124987:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01.nii"
+INFO: stdout 2024-07-03T15:32:16.124987:Compress: "/usr/bin/pigz" -b 960 -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01.nii"
+240703-15:32:16,125 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:16.124987:Conversion required 0.335334 seconds (0.126652 for core code).
+INFO: stdout 2024-07-03T15:32:16.124987:Conversion required 0.335334 seconds (0.126652 for core code).
+240703-15:32:16,170 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01.json.
+240703-15:32:23,667 nipype.workflow INFO:
+	 [Node] Setting-up "embedder" in "/tmp/embedmetacz_02bze/embedder".
+INFO: [Node] Setting-up "embedder" in "/tmp/embedmetacz_02bze/embedder".
+240703-15:32:23,681 nipype.workflow INFO:
+	 [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+INFO: [Node] Running "embedder" ("nipype.interfaces.utility.wrappers.Function")
+240703-15:32:27,502 nipype.workflow WARNING:
+	 Storing result file without outputs
+WARNING: Storing result file without outputs
+240703-15:32:27,503 nipype.workflow WARNING:
+	 [Node] Error on "embedder" (/tmp/embedmetacz_02bze/embedder)
+WARNING: [Node] Error on "embedder" (/tmp/embedmetacz_02bze/embedder)
+ERROR: Embedding failed: 'NoneType' object is not subscriptable
+INFO: Post-treating /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-01.json file
+INFO: Converting /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02 (5 DICOMs) -> /home/bids/sub-022/ses-01/anat . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:32:27,584 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixhhofs2ll/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixhhofs2ll/convert".
+240703-15:32:27,589 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02 -o . -s n -v n /tmp/dcm2niixhhofs2ll/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02 -o . -s n -v n /tmp/dcm2niixhhofs2ll/convert
+240703-15:32:27,706 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.706362:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:32:27.706362:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:32:27,706 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.706362:Found 5 DICOM file(s)
+INFO: stdout 2024-07-03T15:32:27.706362:Found 5 DICOM file(s)
+240703-15:32:27,706 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.706362:slices not stacked: orientation varies (vNav or localizer?) [-0.0751195 0.978319 0.192998 -0.0026858 0.193345 -0.981127] != [0.508926 0.844072 0.168931 0.00255078 0.194767 -0.980846]
+INFO: stdout 2024-07-03T15:32:27.706362:slices not stacked: orientation varies (vNav or localizer?) [-0.0751195 0.978319 0.192998 -0.0026858 0.193345 -0.981127] != [0.508926 0.844072 0.168931 0.00255078 0.194767 -0.980846]
+240703-15:32:27,706 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.706362:Convert 2 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00001 (162x162x2x1)
+INFO: stdout 2024-07-03T15:32:27.706362:Convert 2 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00001 (162x162x2x1)
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00001.nii"
+INFO: stdout 2024-07-03T15:32:27.765161:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00001.nii"
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00002 (162x162x1x1)
+INFO: stdout 2024-07-03T15:32:27.765161:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00002 (162x162x1x1)
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:32:27.765161:Warning: Check that 2D images are not mirrored.
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00002.nii"
+INFO: stdout 2024-07-03T15:32:27.765161:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00002.nii"
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00003 (162x162x1x1)
+INFO: stdout 2024-07-03T15:32:27.765161:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00003 (162x162x1x1)
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:32:27.765161:Warning: Check that 2D images are not mirrored.
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00003.nii"
+INFO: stdout 2024-07-03T15:32:27.765161:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00003.nii"
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00004 (162x162x1x1)
+INFO: stdout 2024-07-03T15:32:27.765161:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00004 (162x162x1x1)
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:32:27.765161:Warning: Check that 2D images are not mirrored.
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00004.nii"
+INFO: stdout 2024-07-03T15:32:27.765161:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-02_i00004.nii"
+240703-15:32:27,765 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:27.765161:Conversion required 0.075094 seconds (0.015768 for core code).
+INFO: stdout 2024-07-03T15:32:27.765161:Conversion required 0.075094 seconds (0.015768 for core code).
+240703-15:32:27,808 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-021.json.
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-022.json.
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-023.json.
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-024.json.
+WARNING: For now not embedding BIDS and info generated .nii.gz itself since sequence produced multiple files
+INFO: Converting /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03 (3 DICOMs) -> /home/bids/sub-022/ses-01/anat . Converter: dcm2niix . Output types: ('nii.gz', 'dicom')
+240703-15:32:28,472 nipype.workflow INFO:
+	 [Node] Setting-up "convert" in "/tmp/dcm2niixjgubgzty/convert".
+INFO: [Node] Setting-up "convert" in "/tmp/dcm2niixjgubgzty/convert".
+240703-15:32:28,477 nipype.workflow INFO:
+	 [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03 -o . -s n -v n /tmp/dcm2niixjgubgzty/convert
+INFO: [Node] Running "convert" ("nipype.interfaces.dcm2nii.Dcm2niix"), a CommandLine Interface with command:
+dcm2niix -b y -z y -x n -t n -m n -f /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03 -o . -s n -v n /tmp/dcm2niixjgubgzty/convert
+240703-15:32:28,595 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+INFO: stdout 2024-07-03T15:32:28.595268:Chris Rorden's dcm2niiX version v1.0.20190410  GCC6.3.0 (64-bit Linux)
+240703-15:32:28,595 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Found 3 DICOM file(s)
+INFO: stdout 2024-07-03T15:32:28.595268:Found 3 DICOM file(s)
+240703-15:32:28,595 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:slices not stacked: orientation varies (vNav or localizer?) [0.998727 0.0487139 0.0130728 0.0102363 0.0580275 -0.998263] != [0.997171 0.0742201 0.0118964 0.0102881 0.0220152 -0.999705]
+INFO: stdout 2024-07-03T15:32:28.595268:slices not stacked: orientation varies (vNav or localizer?) [0.998727 0.0487139 0.0130728 0.0102363 0.0580275 -0.998263] != [0.997171 0.0742201 0.0118964 0.0102881 0.0220152 -0.999705]
+240703-15:32:28,595 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00001 (162x162x1x1)
+INFO: stdout 2024-07-03T15:32:28.595268:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00001 (162x162x1x1)
+240703-15:32:28,595 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:32:28.595268:Warning: Check that 2D images are not mirrored.
+240703-15:32:28,595 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00001.nii"
+INFO: stdout 2024-07-03T15:32:28.595268:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00001.nii"
+240703-15:32:28,595 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00002 (162x162x1x1)
+INFO: stdout 2024-07-03T15:32:28.595268:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00002 (162x162x1x1)
+240703-15:32:28,596 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:32:28.595268:Warning: Check that 2D images are not mirrored.
+240703-15:32:28,596 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00002.nii"
+INFO: stdout 2024-07-03T15:32:28.595268:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00002.nii"
+240703-15:32:28,596 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00003 (162x162x1x1)
+INFO: stdout 2024-07-03T15:32:28.595268:Convert 1 DICOM as ./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00003 (162x162x1x1)
+240703-15:32:28,596 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Warning: Check that 2D images are not mirrored.
+INFO: stdout 2024-07-03T15:32:28.595268:Warning: Check that 2D images are not mirrored.
+240703-15:32:28,596 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00003.nii"
+INFO: stdout 2024-07-03T15:32:28.595268:Compress: "/usr/bin/pigz" -n -f -6 "./home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-03_i00003.nii"
+240703-15:32:28,596 nipype.interface INFO:
+	 stdout 2024-07-03T15:32:28.595268:Conversion required 0.046261 seconds (0.011262 for core code).
+INFO: stdout 2024-07-03T15:32:28.595268:Conversion required 0.046261 seconds (0.011262 for core code).
+240703-15:32:28,626 nipype.workflow INFO:
+	 [Node] Finished "convert".
+INFO: [Node] Finished "convert".
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-031.json.
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-032.json.
+WARNING: Failed to find task field in /home/bids/sub-022/ses-01/anat/sub-022_ses-01_scout__dup-033.json.
+WARNING: For now not embedding BIDS and info generated .nii.gz itself since sequence produced multiple files
+INFO: Lock 139915270801056 acquired on /home/bids/heudiconv.lock
+INFO: Populating template files under /home/bids
+INFO: Lock 139915270801056 released on /home/bids/heudiconv.lock
+INFO: PROCESSING DONE: {'subject': '022', 'outdir': '/home/bids', 'session': '01'}
+Running heudiconv for subject 022 session 01
+Running PYDEFACE on subject 022, session 01
+Traceback (most recent call last):
+  File "/usr/people/jt1955/.conda/envs/jack-fmri/bin/pydeface", line 10, in <module>
+    sys.exit(main())
+  File "/usr/people/jt1955/.conda/envs/jack-fmri/lib/python3.10/site-packages/pydeface/__main__.py", line 86, in main
+    welcome_str = 'pydeface ' + require("pydeface")[0].version
+  File "/usr/people/jt1955/.conda/envs/jack-fmri/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1062, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/usr/people/jt1955/.conda/envs/jack-fmri/lib/python3.10/site-packages/pkg_resources/__init__.py", line 889, in resolve
+    dist = self._resolve_dist(
+  File "/usr/people/jt1955/.conda/envs/jack-fmri/lib/python3.10/site-packages/pkg_resources/__init__.py", line 935, in _resolve_dist
+    raise VersionConflict(dist, req).with_context(dependent_req)
+pkg_resources.ContextualVersionConflict: (etelemetry 0+unknown (/mnt/cup/people/jt1955/.conda/envs/jack-fmri/lib/python3.10/site-packages), Requirement.parse('etelemetry>=0.2.0'), {'nipype'})
+mv: missing destination file operand after '/jukebox/graziano/jack/fmri/jack_replication/data/bids/derivatives/deface/'
+Try 'mv --help' for more information.
+STEP 1 PREPROC COMPLETE
+0,1
+1,128
+2,5
+3,3
+99,10
+5,176
+6,110
+7,110
+8,110
+9,110
+10,110
+11,110
+12,168
+13,168
+4,3

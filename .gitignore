@@ -9,3 +9,4 @@ code/preprocessing/*_OLD.sh
 
 !.gitkeep
 !/**/.gitkeep
+!original/

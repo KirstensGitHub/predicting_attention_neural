@@ -1,0 +1,8 @@
+starting up the script
+about to import globals
+about to assign subject
+about to remove scout files
+about to remove dup files
+about to insert IntendedFor
+insertion 1 complete
+insertion 2 complete
