@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Replicating code for "Modeling the attention of others activates social regions in the brain"
 
 Welcome! To prepare our data for your own replication and analysis, you'll need to:
