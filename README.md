@@ -4,6 +4,9 @@ This repository contains the code and behavioral data for our manuscript **Corti
 
 The corresponding MRI data can be publicly accessed here: <LINK>
 
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/d2ed2b34-059a-44f5-9c83-d7e58fdbd256">
+
+
 ### Replicating our analyses
 
 To replicate the analyses you see in the manuscript, you can:
