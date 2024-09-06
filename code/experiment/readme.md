@@ -1,8 +1,6 @@
-This repository contains code to generate the stimuli and make the experiment.
-
 ### Generate stimuli
 
-To generate the stimuli, first download the DIDEC dataset here. Then run the "stimulus_generation" notebooks (.ipynb files) in numerical order.
+To generate experiment stimuli, first download the DIDEC dataset here. Then run the "stimulus_generation" notebooks (.ipynb files) in numerical order.
 
 ### Run the experiment
 
