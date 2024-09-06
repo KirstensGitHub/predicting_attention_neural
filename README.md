@@ -8,10 +8,10 @@ The corresponding MRI data can be publicly accessed here: <LINK>
 ### Replicating our analyses
 
 To replicate the analyses you see in the manuscript, you can:
+- process and analyze the behavioral data, following the steps in `data/behavioral`
 - download the MRI data, here
 - preprocess the MRI data, following the steps in `code/preprocessing`
 - analyze the MRI data, following the steps in `code/analysis`
-- process and analyze the behavioral data, following the steps in `data/behavioral`
 
 ### Replicating our experimennt
 
