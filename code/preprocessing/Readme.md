@@ -12,7 +12,7 @@ First, download the MRI data for this experiment from <mark>LINK HERE</mark>.
   - `step1_preproc.sh`
   - `step2_preproc.sh`
 
-4. Note: at some point you should check to make sure your data is properly bids formatted. You can do this by running  aspecific bids validation now or by using bids validation checks in fmriprep. 
+4. Note: at some point you should check to make sure your data is properly bids formatted. You can do this by running a bids validator now or by using bids validation checks in fmriprep. (fMRIprep should run a bids validation check for you)
 
 5. Next, you will wnat to run `fmriprep`. You can decide if you are going to use `slurm` to handle these as batch jobs on a cluster (recommended) or run the scripts manually. (You may also optionally run `mriqc` to review your data before continuing)
   - Using `slurm`:
