@@ -1,5 +1,7 @@
 ## Preprocessing MRI data
 
+These scripts show the steps taken to preprocess the MRI data for analysis, with extended documentation below. 
+
 First, download the MRI data for this experiment from <mark>LINK HERE</mark>.
 
 1. Edit `code/preprocessing/globals.sh` so that:
@@ -14,7 +16,7 @@ First, download the MRI data for this experiment from <mark>LINK HERE</mark>.
 
 4. Note: at some point you should check to make sure your data is properly bids formatted. You can do this by running a bids validator now or by using bids validation checks in fmriprep. (fMRIprep should run a bids validation check for you)
 
-5. Next, you will wnat to run `fmriprep`. You can decide if you are going to use `slurm` to handle these as batch jobs on a cluster (recommended) or run the scripts manually. (You may also optionally run `mriqc` to review your data before continuing)
+5. Next, you will want to run `fmriprep`. You can decide if you are going to use `slurm` to handle these as batch jobs on a cluster (recommended) or run the scripts manually. (You may also optionally run `mriqc` to review your data before continuing)
   - Using `slurm`:
     - If you are on Princeton's Scotty computer cluster or a similar cluster in which your slurm nodes do not have internet access, each user will have to run `run_mriqc.sh` for a subject once *without* using slurm, to allow the program to download the necessary TemplateFlow files. You can do that by running `./run_mriqc.sh [3-digit subject code]` (eg. `./run_mriqc.sh 013`) for any subject besides 1 and 12, before proceeding to the slurm commands below.
     - Edit the `slurm_mriqc.sh` and `slurm_fmriprep.sh` files with your email & specific job details for your cluster.
