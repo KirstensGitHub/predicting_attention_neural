@@ -7,9 +7,10 @@ First, download the MRI data for this experiment from <mark>LINK HERE</mark>.
   - The `project_dir` points to the root of this repository.
   - The `scratch_dir` points to the `data/work` directory.
 2. Put your FreeSurfer [license](https://surfer.nmr.mgh.harvard.edu/fswiki/License) in `code/preprocessing`.
+
 3. `cd` into `code/preprocessing` and run:
-  - `step1_preproc_batch.sh`
-  - `step2_preproc_batch.sh`
+  - `step1_preproc.sh`
+  - `step2_preproc.sh`
 
 4. Note: at some point you should check to make sure your data is properly bids formatted. You can do this by running  aspecific bids validation now or by using bids validation checks in fmriprep. 
 
