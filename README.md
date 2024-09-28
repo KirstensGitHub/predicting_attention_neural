@@ -12,7 +12,7 @@ To replicate the analyses you see in the manuscript, you can:
 - download the MRI data, here
 - analyze the MRI data, following the steps in `code/analysis`
 
-### Replicating our experimennt
+### Replicating our experiment
 
 To replicate our experiment, you can follow the steps outlined in `code/experiment`
 
