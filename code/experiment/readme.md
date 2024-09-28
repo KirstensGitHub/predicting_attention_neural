@@ -2,7 +2,7 @@
 
 First, unzip the stimulus folder (fps_60). Then, to run the experiment, open and run `experiment_run.psyexp` or `experiment_run.py` in Psychopy version 2023.1.2
 
-Note that, reviewing our code and experiment data, we explored the impact of adjusting some psychopy code settings on the timing of stimulus presentation, primarily for video stimulus display. The code here is intended to represent the original state of the experiment at the time of data collection, but we encourage users to tweak timing and display settings as needed to suit their design and equipment (external monitors, MRI set up, etc)
+Note that, reviewing our code and experiment data, we explored the impact of adjusting some psychopy code settings on the timing of stimulus presentation, primarily for video stimulus display. The code here is intended to represent the original state of the experiment at the time of data collection, but we encourage users to tweak timing and display settings as needed to suit their design and equipment.
 
 ### Stimulus generation
 
