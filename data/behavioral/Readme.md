@@ -2,5 +2,7 @@
 
 To replicate the behavioral analysis: 
 
-2. Unzip `MRI_behavioral_data.zip` into `behavioral_data/`.
-3. Run each of the jupyter notebooks in the order they are numbered.
+- Unzip `MRI_behavioral_data.zip`
+- Run each of the numbered jupyter notebooks in order
+- - (change file paths as needed)
+   
