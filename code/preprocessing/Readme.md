@@ -11,9 +11,11 @@ Data was preprocessed by running the steps in step1_preproc and step2_preproc, f
    
 NOTE: Comporting with the steps outlined in the Pygers documentation, some of our preprocessing and analysis steps were carried out in a module on a Princeton computing cluster called `pyger/0.11.0`. The contents of that module are listed below.
 
-# packages in environment at /jukebox/pkgs/PYGER/base/envs/0.11.0:
-#
-# Name                    Version                   Build  Channel
+--------------------------
+
+### packages in environment at /jukebox/pkgs/PYGER/base/envs/0.11.0:
+
+### Name                    Version                   Build  Channel
 _libgcc_mutex             0.1                 conda_forge    conda-forge
 _openmp_mutex             4.5                       1_gnu    conda-forge
 argh                      0.26.2                   py37_0  
