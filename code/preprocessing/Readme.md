@@ -1,4 +1,5 @@
 ## Preprocessing MRI data
+---------------------------------
 
 These scripts show the steps taken to preprocess the MRI data for analysis. We provide the preprocessed data publicly [here](https://www.dropbox.com/scl/fo/6wzepx3baxel0f4n62k3s/AP4xny1B7vN7hXr6pBclmw8?rlkey=2kr2y9ba748lhhsu35avv51e2&st=fhbupdc6&dl=0). Our preprocessing pipeline is based on the guidelines and code provided in the [Pygers workshop](https://brainhack-princeton.github.io/handbook/content_pages/pygers_workshops/syllabus2020.html). 
 
@@ -15,7 +16,7 @@ NOTE: Comporting with the steps outlined in the Pygers documentation, some of ou
 
 ### packages in environment at /jukebox/pkgs/PYGER/base/envs/0.11.0:
 
-### Name                    Version                   Build  Channel
+### Name,                    Version,                   Build,  Channel
 _libgcc_mutex             0.1                 conda_forge    conda-forge
 _openmp_mutex             4.5                       1_gnu    conda-forge
 argh                      0.26.2                   py37_0  
