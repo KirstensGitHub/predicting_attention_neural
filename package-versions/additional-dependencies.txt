@@ -1,5 +1,0 @@
-FSL version 6.0.2
-IF you are using un-defaced data, install pydeface version 2.0.0
-bids-validator 1.14.6 from npm (node package manager)
-mriqc v0.15.1.simg (Singularity)
-heudiconv v0.8.0.simg (Singularity)
