@@ -9,7 +9,7 @@ The corresponding MRI data can be publicly accessed here: LINK
 
 To replicate the analyses you see in the manuscript, you can:
 - process and analyze the behavioral data, following the steps in `data/behavioral`
-- download the MRI data, here
+- (download the MRI data)[https://www.dropbox.com/scl/fo/6wzepx3baxel0f4n62k3s/AP4xny1B7vN7hXr6pBclmw8?rlkey=2kr2y9ba748lhhsu35avv51e2&st=fhbupdc6&dl=0]
 - analyze the MRI data, following the steps in `code/analysis`
 
 ### Replicating our experiment
