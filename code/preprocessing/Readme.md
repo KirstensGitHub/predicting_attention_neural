@@ -2,7 +2,7 @@
 
 These scripts show the steps taken to preprocess the MRI data for analysis. We provide the preprocessed data publicly [here](https://www.dropbox.com/scl/fo/6wzepx3baxel0f4n62k3s/AP4xny1B7vN7hXr6pBclmw8?rlkey=2kr2y9ba748lhhsu35avv51e2&st=fhbupdc6&dl=0). Our preprocessing pipeline is based on the guidelines and code provided in the [Pygers workshop](https://brainhack-princeton.github.io/handbook/content_pages/pygers_workshops/syllabus2020.html). 
 
-Data was preprocessed by running the steps in step1_preproc and step2_preproc, followed by MRIqc and fMRIprep. We opted to run MRIqc and fMRIprep on a computing cluster, submitting it using SLURM (e.g. via `slurm_fmriprep.sh`). So, a standard sequence of scripts would be:
+Data was preprocessed by running the steps in step1_preproc and step2_preproc, followed by fMRIprep. You may also use MRIQC for quality assurance. We opted to run MRIqc and fMRIprep on a computing cluster, submitting it using SLURM (e.g. via `slurm_fmriprep.sh`). So, a standard sequence of scripts would be:
   - `step1_preproc.sh`
   - `step2_preproc.sh`
   - `slurm_mriqc.sh` 
