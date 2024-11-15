@@ -8,6 +8,7 @@ Data was preprocessed by running the steps in step1_preproc and step2_preproc, f
   - `slurm_mriqc.sh` 
   - `slurm_fmriprep.sh` 
     * note: minor alterations were made to these scripts in the case of two subjects who had data from extra runs (subjects 1 and 12 who, for processing purposes were each treated as two unique subjects - 101 & 201, and 112 & 212, respectively).
+    * note: we attempted to make the output of fMRIprep reproduceable by setting `--random-seed 1` however to make fMRIprep fully reproduceable would require the additional flags `--omp-nthreads 1` and `skull-strip-fixed-seed`
    
 NOTE: Comporting with the steps outlined in the Pygers documentation, some of our preprocessing and analysis steps were carried out in a module on a Princeton computing cluster called `pyger/0.11.0`. The contents of that module are listed below.
 
