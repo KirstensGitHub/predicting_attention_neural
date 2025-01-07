@@ -2,9 +2,6 @@
 
 This repository contains the code and behavioral data for our manuscript **Cortical networks active when modeling the attention of others** (K. Ziman, S. C. Kimmel, I. Christian, K. T. Farrell & M. S. A. Graziano, 2024), submitted to Cerebral Cortex. 
 
-The corresponding MRI data can be publicly accessed here: LINK
-
-
 ### Replicating our analyses
 
 To replicate the analyses you see in the manuscript, you can:
